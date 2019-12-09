@@ -46,8 +46,29 @@ Suas alterações agora estão no HEAD da sua cópia de trabalho local. Para env
 ```
 git push origin master
 ```
-Altere master para qualquer branch desejado, enviando suas alterações para ele. Para mudar de branch basta executar:
+Altere master para qualquer branch desejado, enviando suas alterações para ele. Para criar uma nova branch basta executar:
 ```
+git branch nome_da_nova_branch
+```
+Mudar para a nova branch que foi criada:
+```
+git checkout nome_da_nova_branch
+```
+Voltar para o master:
+```
+git checkout master
+```
+Commitando alterações que foram feitas apenas dentro da nova branch:
+```
+git push origin nome_da_nova_branch
+```
+
+<img src="https://github.com/tercio94/git/blob/Testando/git/branchnova.png?raw=true"
+height="400" width="400">
+
+
+
+
 
 
 
