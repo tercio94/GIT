@@ -46,6 +46,10 @@ Suas alterações agora estão no HEAD da sua cópia de trabalho local. Para env
 ```
 git push origin master
 ```
+Se você não clonou um repositório existente e quer conectar seu repositório a um servidor remoto, você deve executar:
+```
+git remote add origin link_do_github ou servidor remoto
+```
 Altere master para qualquer branch desejado, enviando suas alterações para ele. Para criar uma nova branch basta executar:
 ```
 git branch nome_da_nova_branch
